@@ -4,9 +4,9 @@ import {drawHomePage} from './home.js';
 import {drawContactPage} from './contact.js';
 import {drawMenuPage} from './menu.js';
 
-drawHomePage();
-
 const content = document.getElementById("content");
+
+drawHomePage();
 
 function clearPage () {
     content.innerHTML = '';
