@@ -1,0 +1,29 @@
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 2rem;
+    height: 5vh;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#content>h1 {
+    font-size: 5rem;
+}
+
+#content>img {
+    width: 75vw;
+}
+
+#content>p {
+    width: 75vw;
+    font-size: 3rem;
+    text-align: center;
+}
