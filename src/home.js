@@ -1,11 +1,11 @@
 export function drawHomePage () {
     const content = document.getElementById('#content');
-    
+
     const header = document.createElement('h1');
     header.textContent = 'Welcome to our restaurant, FOOLS!';
 
     const mainImage = document.createElement('img');
-    mainImage.src = '../images/elevate.jpg';
+    mainImage.src = './images/elevate.jpg';
     // mainImage.width = '1000';
 
     const blurb = document.createElement('p');
