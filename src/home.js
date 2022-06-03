@@ -1,4 +1,4 @@
-export function drawPage () {
+export function drawHomePage () {
     const header = document.createElement('h1');
     header.textContent = 'Welcome to our restaurant, FOOLS!';
 

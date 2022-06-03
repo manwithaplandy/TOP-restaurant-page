@@ -16,6 +16,6 @@ const menuLink = document.createElement('div');
 menuLink.textContent = 'Menu';
 menuLink.id = 'menu';
 
-navBar.append(contactLink, menuLink, homeLink);
+navBar.append(homeLink, menuLink, contactLink);
 
 body.insertBefore(navBar, content);

@@ -1,8 +1,10 @@
 import './content.js';
 import './style.css';
-import {drawPage} from './home.js';
+import {drawHomePage} from './home.js';
+import {drawContactPage} from './contact.js';
+import {drawMenuPage} from './menu.js';
 
-drawPage();
+drawHomePage();
 
 const content = document.getElementById("content");
 
@@ -16,5 +18,15 @@ const home = document.getElementById('home');
 
 home.addEventListener('click', () => {
     clearPage();
-    drawPage();
+    drawHomePage();
+});
+
+contact.addEventListener('click', () => {
+    clearPage();
+    drawContactPage();
+});
+
+menu.addEventListener('click', () => {
+    clearPage();
+    drawMenuPage();
 });
