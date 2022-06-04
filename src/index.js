@@ -4,10 +4,10 @@ import {drawHomePage} from './home.js';
 import {drawContactPage} from './contact.js';
 import {drawMenuPage} from './menu.js';
 
-// const content = document.getElementById("content");
+const contentBox = document.getElementById("content");
 
 function clearPage () {
-    content.innerHTML = '';
+    contentBox.innerHTML = '';
 }
 
 const contact = document.getElementById('contact');

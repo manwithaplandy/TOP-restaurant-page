@@ -1,5 +1,5 @@
 export function drawHomePage () {
-    const content = document.getElementById('content');
+    const contentBox = document.getElementById('content');
 
     const header = document.createElement('h1');
     header.textContent = 'Welcome to our restaurant, FOOLS!';
@@ -11,5 +11,5 @@ export function drawHomePage () {
     const blurb = document.createElement('p');
     blurb.textContent = "This restaurant is so sick we don't even use plates, we just throw a bunch of shit we found on the ground onto a piece of wood.";
 
-    content.append(header, mainImage, blurb);
+    contentBox.append(header, mainImage, blurb);
 }

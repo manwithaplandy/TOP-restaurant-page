@@ -1,5 +1,5 @@
 export function drawMenuPage() {
-    const content = document.getElementById('content');
+    const contentBox = document.getElementById('content');
 
     const header = document.createElement('h1');
     header.textContent = 'Menu';
@@ -16,5 +16,5 @@ export function drawMenuPage() {
     hamburger.textContent = 'Ground beef on a plain bun. Ketchup on the side. Quit complaining.';
 
     main.append(hamburger, steak);
-    content.append(main);
+    contentBox.append(main);
 }
