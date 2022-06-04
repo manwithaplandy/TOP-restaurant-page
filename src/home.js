@@ -1,5 +1,5 @@
 export function drawHomePage () {
-    const content = document.getElementById('#content');
+    const content = document.getElementById('content');
 
     const header = document.createElement('h1');
     header.textContent = 'Welcome to our restaurant, FOOLS!';

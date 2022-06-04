@@ -6,8 +6,6 @@ import {drawMenuPage} from './menu.js';
 
 const content = document.getElementById("content");
 
-drawHomePage();
-
 function clearPage () {
     content.innerHTML = '';
 }
@@ -30,3 +28,5 @@ menu.addEventListener('click', () => {
     clearPage();
     drawMenuPage();
 });
+
+drawHomePage();
