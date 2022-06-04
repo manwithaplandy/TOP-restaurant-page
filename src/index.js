@@ -8,6 +8,8 @@ const contentBox = document.getElementById("content");
 
 function clearPage () {
     contentBox.innerHTML = '';
+    console.log('Cleared page');
+    console.log(contentBox);
 }
 
 const contact = document.getElementById('contact');
