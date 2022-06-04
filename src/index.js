@@ -4,7 +4,7 @@ import {drawHomePage} from './home.js';
 import {drawContactPage} from './contact.js';
 import {drawMenuPage} from './menu.js';
 
-const content = document.getElementById("content");
+// const content = document.getElementById("content");
 
 function clearPage () {
     content.innerHTML = '';
